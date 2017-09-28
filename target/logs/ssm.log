@@ -1,0 +1,1 @@
+[ERROR] [2017-09-26 11:31:57][com.pccw.util.DbHelper]java.lang.RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.

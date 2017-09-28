@@ -1,0 +1,12 @@
+{
+	src:{
+		dbName:'system',
+		table:'gl_balances',
+		sql:'select * from gl_balances g where rownum=1',
+		params:null
+	},
+	target:{
+		dbName:'form',
+		table:'gl_balances'
+	}
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DBConnection>
+   <DB>
+      <name>system</name>
+      <driver>oracle.jdbc.OracleDriver</driver>
+      <dbtype>Oracle</dbtype>
+      <!-- <url>jdbc:oracle:thin:@10.87.9.161:11401:HESIT</url> -->
+      <url>jdbc:oracle:thin:@114.251.247.78:11601:DEV3</url>
+      <username>apps</username>
+      <password>apps</password>
+      <maxPoolSize>50</maxPoolSize>
+      <minPoolSize>3</minPoolSize>
+   </DB>
+   <DB>
+      <name>form</name>
+      <dbtype>Mysql</dbtype>
+      <driver>com.mysql.jdbc.Driver</driver>
+      <url>jdbc:mysql://127.0.0.1:3306/form?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;failOverReadOnly=false&amp;useSSL=false&amp;rewriteBatchedStatements=true</url>
+      <username>root</username>
+      <password></password>
+      <maxPoolSize>50</maxPoolSize>
+      <minPoolSize>3</minPoolSize>
+   </DB>
+</DBConnection>
